@@ -47,7 +47,7 @@ public class Player {
 	public void setMaxSpeed(Double maxSpeed) {
 		this.maxSpeed = maxSpeed;
 	}
-	
+	;
 	public boolean goingTooFast(){
 		Double velocity = Math.sqrt(Math.pow(xSpeed.doubleValue(), 2) + Math.pow(ySpeed.doubleValue(), 2));
 		return velocity > maxSpeed;
